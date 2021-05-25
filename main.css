@@ -48,7 +48,7 @@ h4{
     overflow: hidden;
     background-color: #fff;
     height: 270px;
-    width: 190px;
+    width: 180px;
     border: 5px solid #0A4367  ;
     border-radius: 5px 5px 70px 70px;
     margin: 8px;
@@ -81,6 +81,7 @@ h4{
 .cups .full {
     background-color: #64AFDE;
     color: #fff;
+    transition: 0.9s ease;
 }
 
 .cup .remained {
@@ -96,6 +97,7 @@ h4{
 
 .remained span {
     font-size: 2rem;
+    font-weight: bolder;
 }
 
 .remained small {
